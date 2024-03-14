@@ -1,0 +1,179 @@
+.caja{
+    padding: 8px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4px;
+    border-radius: 8px;
+    background-color: rgba(118, 128, 128, 0.432);
+    backdrop-filter: blur(5px)
+}
+
+.caja h2{
+    font-size: 14px;
+}
+
+.caja:hover{
+    animation: .5s 1 normal voltereta;
+}
+
+
+.html:hover{
+    transform: scale(1.3);
+    z-index: 3;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px var(--html),
+                -1px 1px 5px var(--html),
+                1px -1px 5px var(--html),
+                -1px -1px 5px var(--html),
+                inset 1px 1px 5px var(--html),
+                inset 1px -1px 5px var(--html),
+                inset -1px 1px 5px var(--html),
+                inset -1px -1px 5px var(--html)
+}
+
+.css:hover{
+    transform: scale(1.3);
+    z-index: 3;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px var(--css),
+                -1px 1px 5px var(--css),
+                1px -1px 5px var(--css),
+                -1px -1px 5px var(--css),
+                inset 1px 1px 5px var(--css),
+                inset 1px -1px 5px var(--css),
+                inset -1px 1px 5px var(--css),
+                inset -1px -1px 5px var(--css)
+}
+
+.javascript:hover{
+    transform: scale(1.3);
+    z-index: 3;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px var(--javascript),
+                -1px 1px 5px var(--javascript),
+                1px -1px 5px var(--javascript),
+                -1px -1px 5px var(--javascript),
+                inset 1px 1px 5px var(--javascript),
+                inset 1px -1px 5px var(--javascript),
+                inset -1px 1px 5px var(--javascript),
+                inset -1px -1px 5px var(--javascript)
+}
+
+.typescript:hover{
+    
+    transform: scale(1.3);
+    z-index: 3;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px var(--typescript),
+                -1px 1px 5px var(--typescript),
+                1px -1px 5px var(--typescript),
+                -1px -1px 5px var(--typescript),
+                inset 1px 1px 5px var(--typescript),
+                inset 1px -1px 5px var(--typescript),
+                inset -1px 1px 5px var(--typescript),
+                inset -1px -1px 5px var(--typescript)
+}
+
+.bootstrap:hover{
+    
+    transform: scale(1.3);
+    z-index: 3;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px var(--bootstrap),
+                -1px 1px 5px var(--bootstrap),
+                1px -1px 5px var(--bootstrap),
+                -1px -1px 5px var(--bootstrap),
+                inset 1px 1px 5px var(--bootstrap),
+                inset 1px -1px 5px var(--bootstrap),
+                inset -1px 1px 5px var(--bootstrap),
+                inset -1px -1px 5px var(--bootstrap)
+}
+
+.react:hover{
+    
+    transform: scale(1.3);
+    z-index: 3;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px var(--react),
+                -1px 1px 5px var(--react),
+                1px -1px 5px var(--react),
+                -1px -1px 5px var(--react),
+                inset 1px 1px 5px var(--react),
+                inset 1px -1px 5px var(--react),
+                inset -1px 1px 5px var(--react),
+                inset -1px -1px 5px var(--react)
+}
+
+.react-native:hover{
+    
+    transform: scale(1.3);
+    z-index: 3;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px var(--react-native),
+                -1px 1px 5px var(--react-native),
+                1px -1px 5px var(--react-native),
+                -1px -1px 5px var(--react-native),
+                inset 1px 1px 5px var(--react-native),
+                inset 1px -1px 5px var(--react-native),
+                inset -1px 1px 5px var(--react-native),
+                inset -1px -1px 5px var(--react-native)
+}
+
+.vsc:hover{
+    
+    transform: scale(1.3);
+    z-index: 3;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px var(--vsc),
+                -1px 1px 5px var(--vsc),
+                1px -1px 5px var(--vsc),
+                -1px -1px 5px var(--vsc),
+                inset 1px 1px 5px var(--vsc),
+                inset 1px -1px 5px var(--vsc),
+                inset -1px 1px 5px var(--vsc),
+                inset -1px -1px 5px var(--vsc)
+}
+
+.git:hover{
+    transform: scale(1.3);
+    z-index: 3;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px var(--git),
+                -1px 1px 5px var(--git),
+                1px -1px 5px var(--git),
+                -1px -1px 5px var(--git),
+                inset 1px 1px 5px var(--git),
+                inset 1px -1px 5px var(--git),
+                inset -1px 1px 5px var(--git),
+                inset -1px -1px 5px var(--git)
+}
+
+.github:hover{
+    transform: scale(1.3);
+    z-index: 3;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px var(--github),
+                -1px 1px 5px var(--github),
+                1px -1px 5px var(--github),
+                -1px -1px 5px var(--github),
+                inset 1px 1px 5px var(--github),
+                inset 1px -1px 5px var(--github),
+                inset -1px 1px 5px var(--github),
+                inset -1px -1px 5px var(--github)
+}
+
+.caja img{
+    max-width: 60%;
+}
+
+@keyframes voltereta {
+    0%{
+        transform: rotateX(0deg);
+    }
+
+    100%{
+        transform: rotateX(360deg);
+    }
+}

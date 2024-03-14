@@ -6,8 +6,18 @@
 
 :root{
     --titulo: #fffff0;
-    --fondo-seccion: #d9d9d921;
-    --sombra-seccion: #d9d9d950;
+    --fondo-seccion: #d9d9d940;
+    --sombra-seccion: #d9d9d980;
+    --html: #e5532e;
+    --css: #0a72c2;
+    --javascript: #F7E025;
+    --typescript: #377CC8;
+    --bootstrap: #8D1AFF;
+    --react: #65DBFB;
+    --react-native: #487fec;
+    --vsc: #3BA4EA;
+    --git: #E94E31;
+    --github: #080808;
 }
 
 body{
@@ -19,7 +29,7 @@ body{
     max-height: 100vh;
     padding: 48px;
     color: var(--titulo);
-    
+    overflow-y: hidden;
 }
 
 main{
@@ -33,9 +43,16 @@ main{
 }
 
 section {
+    overflow-y: auto;
     background-color: var(--fondo-seccion);
     border-radius: 16px;
     box-shadow: 0 4px var(--sombra-seccion);
     text-align: center;
-    padding: 22px;
+    padding: 16px;
+    h1{
+        text-shadow: 1px 1px black,
+                    -1px 1px black,
+                    1px -1px black,
+                    -1px -1px black;
+        }
 }

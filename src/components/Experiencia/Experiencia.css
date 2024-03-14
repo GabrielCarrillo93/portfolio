@@ -1,0 +1,7 @@
+.experiencia{
+    max-height: calc(50vh - 96px);
+    min-height: calc(50vh - 96px);
+    grid-column: span 4;
+    grid-row: span 2;
+    overflow-y: auto;
+}

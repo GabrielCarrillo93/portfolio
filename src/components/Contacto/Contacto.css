@@ -1,0 +1,6 @@
+.contacto{
+    grid-column: span 2;
+    min-height: calc(35vh - 96px);
+    max-height: calc(35vh - 96px);
+    overflow-y: auto;
+}

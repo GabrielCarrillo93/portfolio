@@ -1,0 +1,6 @@
+.sobremi{
+    min-height: calc(35vh - 96px);
+    max-height: calc(35vh - 96px);
+    overflow-y: auto;
+    grid-column: span 4;
+}

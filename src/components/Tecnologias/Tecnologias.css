@@ -1,0 +1,27 @@
+.tecnologia{
+    position: relative;
+    max-height: calc(50vh - 96px);
+    min-height: calc(50vh - 96px);
+    grid-column: span 6;
+    grid-row: span 2;
+    background-image: url("../../assets/img/25336.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px #003114;
+    h2{
+        text-shadow: 1px 1px rgb(34, 54, 44),
+                    -1px 1px rgb(34, 54, 44),
+                    1px -1px rgb(34, 54, 44),
+                    -1px -1px rgb(34, 54, 44);
+        }
+}
+
+
+.cont {
+    padding: 24px 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, calc(20% - 6px));
+    justify-content: center;
+    gap: 6px;
+}
