@@ -7,13 +7,17 @@
     background-image: url("../../assets/img/25336.jpg");
     background-position: center;
     background-size: cover;
-    box-shadow: 0 4px #003114;
+    box-shadow: 0 8px #003114;
     h2{
         text-shadow: 1px 1px rgb(34, 54, 44),
                     -1px 1px rgb(34, 54, 44),
                     1px -1px rgb(34, 54, 44),
                     -1px -1px rgb(34, 54, 44);
         }
+    &:hover{
+        box-shadow: 0 4px #003114;
+        transform: translateY(4px)
+    }
 }
 
 
