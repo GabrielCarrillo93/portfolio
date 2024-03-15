@@ -8,16 +8,16 @@
     --titulo: #fffff0;
     --fondo-seccion: #d9d9d940;
     --sombra-seccion: #d9d9d980;
-    --html: #e5532e;
-    --css: #0a72c2;
-    --javascript: #F7E025;
-    --typescript: #377CC8;
-    --bootstrap: #8D1AFF;
-    --react: #65DBFB;
-    --react-native: #487fec;
-    --vsc: #3BA4EA;
-    --git: #E94E31;
-    --github: #080808;
+    --html: rgba(229, 83, 46, 0.7);
+    --css: rgba(10, 114, 194, 0.7);
+    --javascript: rgba(247, 223, 37, 0.7);
+    --typescript: rgba(55, 125, 200, 0.7);
+    --bootstrap: rgba(141, 26, 255, 0.7);
+    --react: rgba(101, 218, 251, 0.7);
+    --react-native: rgba(72, 127, 236, 0.7);
+    --vsc: rgba(59, 164, 234, 0.7);
+    --git: rgba(233, 77, 49, 0.7);
+    --github: rgba(8, 8, 8, 0.7);
 }
 
 body{
@@ -46,7 +46,7 @@ section {
     overflow-y: auto;
     background-color: var(--fondo-seccion);
     border-radius: 16px;
-    box-shadow: 0 4px var(--sombra-seccion);
+    box-shadow: 0 8px var(--sombra-seccion);
     text-align: center;
     padding: 16px;
     h1{

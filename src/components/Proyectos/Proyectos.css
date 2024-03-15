@@ -4,18 +4,3 @@
     max-height: calc(60vh - 96px);
     min-height: calc(60vh - 96px);
 }
-
-.carrousel{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 8px 0;
-}
-
-.carrousel div{
-    background-color: #d9d9d9;
-    border-radius: 16px;
-    height: 280px;
-    width: 200px;
-}

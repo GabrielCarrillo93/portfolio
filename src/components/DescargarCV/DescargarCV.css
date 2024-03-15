@@ -2,4 +2,34 @@
     grid-column: span 2;
     min-height: calc(35vh - 96px);
     max-height: calc(35vh - 96px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background-image: url("src/assets/img/workspace-workplace-office-table.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -5px;
+    background-size: cover;
+    box-shadow: 0 8px #c7cdcf;
+
+    &:hover{
+        box-shadow: 0 4px #c7cdcf;
+        transform: translateY(4px);
+    }
+}
+
+.descarga a{
+    display: block;
+    text-decoration: none;
+    width: 50%;
+    background-color: #b6bec0;
+    border-radius: 8px;
+    padding: 8px;
+    backdrop-filter: blur(3px);
+    color: inherit;
+    text-shadow: 1px 1px black,
+                1px -1px black,
+                -1px 1px black,
+                -1px -1px black;
 }
