@@ -3,4 +3,33 @@
     grid-row: span 2;
     max-height: calc(60vh - 96px);
     min-height: calc(60vh - 96px);
+    background-image: url("src/assets/img/computer-1873831_1280.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 8px #080808;
+    
+    &:hover{
+        box-shadow: 0 4px #161616;
+        transform: translateY(4px);
+    }
+}
+
+.proyectos::-webkit-scrollbar{
+    background-color: #1c1c1c;
+    width: 8px;
+    border-radius: 8px;
+}
+
+.proyectos::-webkit-scrollbar-thumb{
+    background-color: hsla(0, 0%, 25%, 0.7);
+    width: 8px;
+    border-radius: 8px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 12px;
+    row-gap: 12px;
+    padding: 16px;
 }

@@ -1,4 +1,6 @@
 import './App.css'
+import '@fontsource-variable/montserrat'
+import '@fontsource/salsa'
 import AboutMe from './components/AboutMe/AboutMe'
 import Contacto from './components/Contacto/Contacto'
 import DescargarCV from './components/DescargarCV/DescargarCV'

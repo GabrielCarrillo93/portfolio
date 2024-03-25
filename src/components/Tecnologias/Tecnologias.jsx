@@ -42,7 +42,7 @@ const Tecnologias = () => {
                     icono="devicon:react"
                     />
                 <CajaTec 
-                    nombre="Visual Studio Code"
+                    nombre="VisualStudioCode"
                     clase="vsc" 
                     icono="logos:visual-studio-code"
                     />

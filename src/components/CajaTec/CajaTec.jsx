@@ -7,7 +7,7 @@ const CajaTec = ({icono, clase, nombre}) => {
         <div 
             className={`caja ${clase}`}
             >
-            <h2 className='titulo'>{nombre}</h2>
+            <h4 className='titulo'>{nombre}</h4>
             <Icon icon={`:${icono}`} style={{ fontSize: '48px' }}/>
         </div>
     )

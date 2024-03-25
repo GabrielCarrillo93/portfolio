@@ -7,11 +7,14 @@
     gap: 4px;
     border-radius: 8px;
     background-color: hsla(180, 4%, 48%, 0.432);
-    backdrop-filter: blur(5px)
+    backdrop-filter: blur(5px);
+    max-height: 84px;
+
 }
 
-.caja h2{
+.caja h4{
     font-size: 14px;
+    color: ivory;
 }
 
 .caja:hover{
