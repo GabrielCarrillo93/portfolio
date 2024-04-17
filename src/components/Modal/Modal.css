@@ -14,6 +14,14 @@
     box-shadow: 0 2px 5px rgba(22, 59, 27, 0.8);
 }
 
+.modal .icon{
+    font-size: 32px;
+    position: absolute;
+    top: 16px;
+    right: 40px;
+    cursor: pointer;
+}
+
 .modal h1{
     font-size: 32px;
 }
@@ -38,7 +46,7 @@
     margin-top: 16px;
     background-color: #354431;
     border-radius: 8px;
-    padding: 8px 12px;
+    padding: 16px;
     box-shadow: inset -1px -1px 3px #1f3816;
     position: relative;
 }
@@ -63,13 +71,13 @@
     letter-spacing: 1px;
 }
 
-ul{
+.der ul{
     margin-left: 64px;
     list-style-type: "</>  ";
     text-align: left;
 }
 
-li{
+.der li{
     font-size: 15px;
     padding: 4px 4px;
     font-style: italic;
@@ -78,7 +86,7 @@ li{
     line-height: 18px
 }
 
-hr{
+.der hr{
     border: 1px solid #39533a;
     margin-block: 16px;
 }
@@ -96,7 +104,7 @@ hr{
     transform: translateX(-50%);
 }
 
-a{
+.der a{
     font-size: 24px;
     text-shadow: -2px -2px rgba(0, 0, 0, 0.3);
     display: block;

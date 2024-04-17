@@ -1,30 +1,36 @@
+import { Icon } from '@iconify/react/dist/iconify.js'
 import './Modal.css'
 
-const Modal = () => {
+// eslint-disable-next-line react/prop-types
+const Modal = ({ setModal }) => {
+    const handleCloseClick = () => {
+        setModal(null)
+    }
     return (
         <section className='modal'>
-            <h1>Titulo del proyecto</h1>
+            <Icon 
+                icon="jam:close-rectangle"
+                className='icon'
+                onClick={handleCloseClick}
+                />
+            <h1></h1>
             <div className='izq'>
-                <img src="src/assets/img/Opera Instantánea_2024-04-16_195628_gabrielcarrillo93.github.io.png" alt="" />
+                <img 
+                    src="" 
+                    alt="" />
                 <hr />
                 <h2>Descripción</h2>
-                <p className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quo tempore atque laboriosam qui maxime nulla reprehenderit porro quaerat necessitatibus. Architecto nobis totam corporis error doloremque, suscipit enim culpa debitis?</p>
-
+                <p className='desc'></p>
             </div>
             <div className='der'>
                 <h2>Tecnologías usadas</h2>
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>React</li>
+                    
                 </ul>
                 <hr />
                 <h2>Dependencias usadas</h2>
                 <ul>
-                    <li>Vite + React</li>
-                    <li>Iconify</li>
-                    <li>GH Pages</li>
+                    
                 </ul>
                 <hr />
                 <div className="botones">

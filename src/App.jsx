@@ -8,8 +8,10 @@ import Experiencia from './components/Experiencia/Experiencia'
 import Proyectos from './components/Proyectos/Proyectos'
 import Tecnologias from './components/Tecnologias/Tecnologias'
 import Modal from './components/Modal/Modal'
+import { useState } from 'react'
 
 function App() {
+    const [modal, setModal] = useState(null);
     return (
         <>
             <main>
@@ -19,7 +21,7 @@ function App() {
                 <DescargarCV />
                 <Tecnologias />
                 <Experiencia />
-                <Modal/>
+                {modal && <Modal setModal={setModal}/>}
             </main>
         </>
     )
