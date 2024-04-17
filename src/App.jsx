@@ -7,6 +7,7 @@ import DescargarCV from './components/DescargarCV/DescargarCV'
 import Experiencia from './components/Experiencia/Experiencia'
 import Proyectos from './components/Proyectos/Proyectos'
 import Tecnologias from './components/Tecnologias/Tecnologias'
+import Modal from './components/Modal/Modal'
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <DescargarCV />
                 <Tecnologias />
                 <Experiencia />
+                <Modal/>
             </main>
         </>
     )

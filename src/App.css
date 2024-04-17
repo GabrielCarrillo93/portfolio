@@ -26,10 +26,12 @@ html{
 }
 
 body{
+    background-color: #181818;
     background-image: url('/img/milky-way-2695569_1920.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-blend-mode: color-dodge;
     min-height: 100vh;
     max-height: 100vh;
     padding: 48px;

@@ -1,5 +1,4 @@
 .tecnologia{
-    position: relative;
     max-height: calc(50vh - 96px);
     min-height: calc(50vh - 96px);
     grid-column: span 6;

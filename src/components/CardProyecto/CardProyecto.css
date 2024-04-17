@@ -42,3 +42,14 @@
     padding: 5px;
     align-self: end;
 }
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    color: white;
+    width: 96%;
+    height: 96%;
+}
