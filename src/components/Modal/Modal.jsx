@@ -3,6 +3,7 @@ import './Modal.css'
 
 // eslint-disable-next-line react/prop-types
 const Modal = ({ setModal }) => {
+    
     const handleCloseClick = () => {
         setModal(null)
     }
@@ -13,7 +14,7 @@ const Modal = ({ setModal }) => {
                 className='icon'
                 onClick={handleCloseClick}
                 />
-            <h1></h1>
+            <h1>Titulo</h1>
             <div className='izq'>
                 <img 
                     src="" 
