@@ -9,6 +9,7 @@ import Proyectos from './components/Proyectos/Proyectos'
 import Tecnologias from './components/Tecnologias/Tecnologias'
 import Modal from './components/Modal/Modal'
 import { useState } from 'react'
+import Certificados from './components/Certificados/Certificados'
 
 function App() {
     const [modal, setModal] = useState(null);
@@ -20,7 +21,7 @@ function App() {
                 <Contacto />
                 <DescargarCV />
                 <Tecnologias />
-                <Experiencia />
+                <Certificados />
                 {modal && <Modal setModal={setModal}/>}
             </main>
         </>
