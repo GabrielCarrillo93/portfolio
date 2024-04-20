@@ -6,11 +6,11 @@
     background-image: url("src/assets/img/computer-1873831_1280.png");
     background-size: cover;
     background-position: center;
-    box-shadow: 0 8px #080808;
+    box-shadow: 0 10px #080808;
     position: relative;
     
     &:hover{
-        box-shadow: 0 4px #161616;
+        box-shadow: 0 5px #161616;
         transform: translateY(4px);
     }
 }
