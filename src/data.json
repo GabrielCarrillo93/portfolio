@@ -110,5 +110,77 @@
             "demo": "https://gabrielcarrillo93.github.io/stats-preview-card-component/",
             "codigo": "https://github.com/GabrielCarrillo93/stats-preview-card-component"
         }
+    ],
+    "certificados": [
+        {
+            "id": 1,
+            "titulo": "Fundamentos y Lógica de Programación",
+            "plataforma": "Udemy",
+            "fecha": "08-09-2022",
+            "imagen": "https://images2.imgbox.com/98/77/FPH3lHLT_o.jpg"
+        },
+        {
+            "id": 2,
+            "titulo": "#SeProgramar",
+            "plataforma": "Argentina Programa",
+            "fecha": "13-10-2022",
+            "imagen": "https://images2.imgbox.com/2e/b1/zLXwHo84_o.jpg"
+        },
+        {
+            "id": 3,
+            "titulo": "Aprende HTML5 2021",
+            "plataforma": "Udemy",
+            "fecha": "23-10-2022",
+            "imagen": "https://images2.imgbox.com/bf/3c/kRRMMO0k_o.jpg"
+        },
+        {
+            "id": 4,
+            "titulo": "Primeros pasos del desarrollo frontend",
+            "plataforma": "Argentina Programa 4.0",
+            "fecha": "21-02-2023",
+            "imagen": "https://images2.imgbox.com/5d/5b/cjW3F3mr_o.jpg"
+        },
+        {
+            "id": 5,
+            "titulo": "Curso React Native",
+            "plataforma": "Códigofacilito",
+            "fecha": "02-07-2023",
+            "imagen": "https://images2.imgbox.com/a0/f8/yBYc7c3j_o.jpg"
+        },
+        {
+            "id": 6,
+            "titulo": "Fullstack Java",
+            "plataforma": "Codo a Codo",
+            "fecha": "16-07-2023",
+            "imagen": "https://images2.imgbox.com/9a/57/kPk2KuKF_o.jpg"
+        },
+        {
+            "id": 7,
+            "titulo": "Curso Profesional React",
+            "plataforma": "Códigofacilito",
+            "fecha": "13-08-2023",
+            "imagen": "https://images2.imgbox.com/44/cb/WOrFG5g0_o.jpg"
+        },
+        {
+            "id": 8,
+            "titulo": "Desarrollo Frontend React",
+            "plataforma": "Digi@lers",
+            "fecha": "17-11-203",
+            "imagen": "https://images2.imgbox.com/94/39/31Bbw6CL_o.jpg"
+        },
+        {
+            "id": 9,
+            "titulo": "Desarrollador Web con React.JS",
+            "plataforma": "Argentina Programa 4.0",
+            "fecha": "29-11-2023",
+            "imagen": "https://images2.imgbox.com/73/01/sjrvFx7S_o.jpg"
+        },
+        {
+            "id": 10,
+            "titulo": "Curso de TypeScript",
+            "plataforma": "Códigofacilito",
+            "fecha": "22-11-2023",
+            "imagen": "https://images2.imgbox.com/7c/50/aBQAjrob_o.jpg"
+        }
     ]
 }
