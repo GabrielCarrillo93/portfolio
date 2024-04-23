@@ -12,7 +12,7 @@ import { useState } from 'react'
 import Certificados from './components/Certificados/Certificados'
 
 function App() {
-    const [modal, setModal] = useState(null);
+    const [modal, setModal] = useState(true);
     return (
         <>
             <main>
