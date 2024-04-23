@@ -5,8 +5,13 @@
     overflow-y: auto;
 
     &:hover{
-        box-shadow: 0 4px #a39e96;
+        box-shadow: 0 4px hsla(266, 21%, 50%, 0.7);
         transform: translateY(4px);
+        background-color: hsla(266, 21%, 67%, 0.7);
+
+        .links a {
+            background-color: hsla(267, 18%, 56%, 0.7);
+        }
     }
 }
 

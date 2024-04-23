@@ -40,11 +40,11 @@
 .card button{
     width: calc(100% - 24px);
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 8px 16px;
     align-self: center;
-    background-color: #0A2D27;
-    box-shadow: inset -1px -1px #054238b9;
+    background-color: #98799e;
+    box-shadow: inset -2px -2px hsla(290, 30%, 70%, 0.7);
     color: ivory;
 }
 

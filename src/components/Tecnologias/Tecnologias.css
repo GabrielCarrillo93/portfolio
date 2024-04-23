@@ -11,8 +11,13 @@
         }
 
     &:hover{
-        box-shadow: 0 4px #a39e96;
+        box-shadow: 0 4px hsla(120, 14%, 50%, 0.7);
         transform: translateY(4px);
+        background-color: hsla(120, 14%, 62%, 0.7);
+        
+        .caja{
+            background-color: hsla(120, 17%, 38%, 0.7);
+        }
     }
 }
 

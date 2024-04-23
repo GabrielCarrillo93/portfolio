@@ -8,8 +8,9 @@
     gap: 8px;
 
     &:hover{
-        box-shadow: 0 4px #a39e96;
+        box-shadow: 0 4px hsla(0, 97%, 60%, 0.7);
         transform: translateY(4px);
+        background-color: hsla(0, 97%, 77%, 0.7);
     }
 }
 
