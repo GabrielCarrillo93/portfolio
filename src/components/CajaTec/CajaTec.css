@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     gap: 4px;
     border-radius: 8px;
-    background-color: hsla(180, 4%, 48%, 0.432);
+    background-color: var(--fondo-cards);
     backdrop-filter: blur(5px);
     max-height: 84px;
 }

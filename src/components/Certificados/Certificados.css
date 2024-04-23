@@ -3,5 +3,35 @@
     min-height: calc(50vh - 96px);
     grid-column: span 4;
     grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+
+    &:hover{
+        box-shadow: 0 4px #a39e96;
+        transform: translateY(4px);
+    }
+}
+
+.certificados .lista{
+    height: 90%;
+    display: flex;
+    align-items: center;
     overflow-y: auto;
+    gap: 8px ;
+    padding: 4px;
+}
+
+.lista::-webkit-scrollbar{
+    background-color: hsla(37, 7%, 61%, 0.7);
+    height: 10px;
+    border-radius: 8px;
+}
+
+.lista::-webkit-scrollbar-thumb{
+    background-color: hsla(37, 7%, 70%, 0.7);
+    height: 10px;
+    border-radius: 8px;
+    box-shadow: inset -0.5px 0.5px 1px #868282b9;
 }

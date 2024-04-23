@@ -3,14 +3,10 @@
     min-height: calc(35vh - 96px);
     max-height: calc(35vh - 96px);
     overflow-y: auto;
-    background-image: url("../../assets/img/Texturelabs_Paper_152M.jpg");
-    background-size: 125%;
-    background-position: center;
-    box-shadow: 0 8px #b1967f;
 
     &:hover{
-        box-shadow: 0 4px #b1967f;
-        transform: translateY(4px)
+        box-shadow: 0 4px #a39e96;
+        transform: translateY(4px);
     }
 }
 
@@ -31,7 +27,7 @@
     display: block;
     padding: 8px;
     border-radius: 8px;
-    background-color: #fffeab4f;
+    background-color: var(--fondo-cards);
     max-width: 60px;
     min-width: 60px;
     max-height: 50px;

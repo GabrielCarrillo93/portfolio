@@ -1,0 +1,46 @@
+.certificado{
+    min-height: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    border-radius: 8px;
+    background-color: var(--fondo-cards);
+    backdrop-filter: blur(3px);
+    color: ivory;
+    min-width: 40%;
+    justify-content: first baseline;
+}
+
+.certificado .img-cert{
+    max-width: 100px;
+    min-height: 100px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.certificado img {
+    width: 100%;
+}
+
+.certificado h3{
+    font-size: 15px;
+}
+
+.certificado h4{
+    font-size: 13px;
+    color: rgb(192, 192, 175);
+}
+
+.certificado span{
+    font-size: 12px;
+}
+
+.certificado .info-cert{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 4px;
+}

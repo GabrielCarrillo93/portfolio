@@ -170,17 +170,17 @@
         },
         {
             "id": 9,
-            "titulo": "Desarrollador Web con React.JS",
-            "plataforma": "Argentina Programa 4.0",
-            "fecha": "29-11-2023",
-            "imagen": "https://images2.imgbox.com/73/01/sjrvFx7S_o.jpg"
-        },
-        {
-            "id": 10,
             "titulo": "Curso de TypeScript",
             "plataforma": "Códigofacilito",
             "fecha": "22-11-2023",
             "imagen": "https://images2.imgbox.com/7c/50/aBQAjrob_o.jpg"
+        },
+        {
+            "id": 10,
+            "titulo": "Desarrollador Web con React.JS",
+            "plataforma": "Argentina Programa 4.0",
+            "fecha": "29-11-2023",
+            "imagen": "https://images2.imgbox.com/73/01/sjrvFx7S_o.jpg"
         }
     ]
 }

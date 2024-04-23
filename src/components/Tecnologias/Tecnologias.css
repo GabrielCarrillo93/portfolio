@@ -3,19 +3,16 @@
     min-height: calc(50vh - 96px);
     grid-column: span 6;
     grid-row: span 2;
-    background-image: url("../../assets/img/25336.jpg");
-    background-position: center;
-    background-size: cover;
-    box-shadow: 0 10px #003114;
     h2{
         text-shadow: 1px 1px rgb(34, 54, 44),
                     -1px 1px rgb(34, 54, 44),
                     1px -1px rgb(34, 54, 44),
                     -1px -1px rgb(34, 54, 44);
         }
+
     &:hover{
-        box-shadow: 0 5px #003114;
-        transform: translateY(4px)
+        box-shadow: 0 4px #a39e96;
+        transform: translateY(4px);
     }
 }
 
