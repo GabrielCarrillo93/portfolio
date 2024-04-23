@@ -8,22 +8,45 @@ import Experiencia from './components/Experiencia/Experiencia'
 import Proyectos from './components/Proyectos/Proyectos'
 import Tecnologias from './components/Tecnologias/Tecnologias'
 import Modal from './components/Modal/Modal'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import {ModalContext} from './Context'
 import Certificados from './components/Certificados/Certificados'
 
 function App() {
-    const [modal, setModal] = useState(true);
+    const [modal, setModal] = useState(null)
+    const [proyectos, setProyectos] = useState([])
+    const [certificados, setCertificados] = useState([])
+    const [mostrar, setMostrar] = useState({})
+
+    useEffect(() => {
+        const getData = async () => {
+            try {
+                const resp = await fetch("src/data.json");
+                if (!resp.ok) throw new Error;
+                const data = await resp.json();
+                setCertificados(data.certificados)
+                setProyectos(data.proyectos)
+            } catch (error) {
+                console.log(error);
+            }
+        }
+        getData()
+    }, [])
+
     return (
         <>
-            <main>
-                <AboutMe />
-                <Proyectos />
-                <Contacto />
-                <DescargarCV />
-                <Tecnologias />
-                <Certificados />
-                {modal && <Modal setModal={setModal}/>}
-            </main>
+                <ModalContext.Provider value={[modal, setModal, mostrar, setMostrar]}>
+                    <main>
+                        <AboutMe />
+                        <Proyectos proyectos={proyectos}/>
+                        <Contacto />
+                        <DescargarCV />
+                        <Tecnologias />
+                        <Certificados certificados={certificados}/>
+                        {modal && <Modal/>}
+                    </main>
+                </ModalContext.Provider>
+                
         </>
     )
 }

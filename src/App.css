@@ -28,7 +28,7 @@ html{
 
 body{
     background-color: #181818;
-    background-image: url("public/img/cherry-blossoms-6153384_1280.jpg");
+    background-image: url("/img/cherry-blossoms-6153384_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
