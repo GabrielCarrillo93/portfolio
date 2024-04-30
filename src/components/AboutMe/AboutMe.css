@@ -3,10 +3,6 @@
     max-height: calc(35vh - 96px);
     overflow-y: auto;
     grid-column: span 4;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEsu9AieIPj3EPNJzMmyqR_szpdqXDeHe1eQ&usqp=CAU");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     box-shadow: 0 8px #a8a8a8ec;
     &:hover{ 
         box-shadow: 0 4px #a8a8a8ec;
@@ -15,12 +11,17 @@
 }
 
 .sobremi p{
-    max-width: 80%;
+    width: 90%;
     padding: 8px;
-    background-color: #a8a8a81c;
     text-align: left;
-    backdrop-filter: blur(8px);
     margin: 4px auto 0;
     border-radius: 12px;
     font-size: 14px;
+}
+
+@media screen and (width < 475px){
+    .sobremi{
+        min-height: 18vh;
+        order: 1;
+    }
 }

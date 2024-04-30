@@ -55,15 +55,29 @@ section {
     padding: 14px;
     h1{
         color: var(--titulo);
-        text-shadow: 1px 1px black,
-                    -1px 1px black,
-                    1px -1px black,
-                    -1px -1px black;
+        text-shadow: 2px 2px 5px black,
+                    -2px 2px 5px black,
+                    2px -2px 5px black,
+                    -2px -2px 5px black;
         font-size: 24px;
         font-family: 'Salsa', system-ui;
         letter-spacing: 1.5px;
     }
     h2{
         color: #fffff0;
+    }
+}
+
+@media screen and (width < 475px) {
+    body{
+        padding: 18px 24px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        overflow-y: scroll;
+        min-height: calc(100vh - 36px);
+        border-radius: 19px;
     }
 }

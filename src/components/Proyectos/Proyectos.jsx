@@ -7,7 +7,7 @@ const Proyectos = ({proyectos}) => {
         <section className="proyectos" >
             <h1>Proyectos</h1>
             <div className='cards'>
-            {proyectos.map((el) => <CardProyecto titulo={el.titulo} key={el.id} descripcion={el.descripcion} proyecto={el}/>)}
+                {proyectos.map((el) => <CardProyecto titulo={el.titulo} key={el.id} descripcion={el.descripcion} proyecto={el}/>)}
             </div>
         </section>
     )

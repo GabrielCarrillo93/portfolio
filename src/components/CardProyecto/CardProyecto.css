@@ -48,13 +48,8 @@
     color: ivory;
 }
 
-.modal{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: red;
-    color: white;
-    width: 96%;
-    height: 96%;
+@media screen and (width < 475px) {
+    .card{
+        backdrop-filter: none;
+    }
 }

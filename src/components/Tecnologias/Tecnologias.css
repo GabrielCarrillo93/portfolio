@@ -30,3 +30,12 @@
     justify-content: center;
     gap: 6px;
 }
+
+@media screen and (width < 475px) {
+    .tecnologia{
+        order: 2
+    }
+    .cont {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -44,3 +44,29 @@
     text-align: left;
     gap: 4px;
 }
+
+@media screen and (width < 475px) {
+    .certificado{
+        backdrop-filter: none;
+    }
+    .certificado .img-cert{
+        max-width: 200px;
+        min-height: 150px;
+        align-self: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .certificado h3{
+        font-size: 17px;
+    }
+    
+    .certificado h4{
+        font-size: 15px;
+        color: rgb(192, 192, 175);
+    }
+    
+    .certificado span{
+        font-size: 14px;
+    }
+}

@@ -46,3 +46,14 @@
     max-height: 80%;
     margin-top: 16px;
 }
+
+@media screen and (width < 475px) {
+    .proyectos{
+        min-height: 70vh;
+        order: 3;
+    }
+    .cards{
+        height: 60vh;
+        grid-template-columns: 1fr;
+    }
+}

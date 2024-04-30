@@ -22,7 +22,7 @@
 
 
 .html:hover{
-    transform: scale(1.3);
+    
     border: 1px solid white;
     box-shadow: 1px 1px 5px 2px var(--html),
                 -1px 1px 5px 2px var(--html),
@@ -35,7 +35,7 @@
 }
 
 .css:hover{
-    transform: scale(1.3);
+    
     z-index: 3;
     border: 1px solid white;
     box-shadow: 1px 1px 5px 2px var(--css),
@@ -49,7 +49,7 @@
 }
 
 .javascript:hover{
-    transform: scale(1.3);
+    
     z-index: 3;
     border: 1px solid white;
     box-shadow: 1px 1px 5px 2px var(--javascript),
@@ -64,7 +64,7 @@
 
 .typescript:hover{
     
-    transform: scale(1.3);
+    
     z-index: 3;
     border: 1px solid white;
     box-shadow: 1px 1px 5px 2px var(--typescript),
@@ -79,7 +79,7 @@
 
 .bootstrap:hover{
     
-    transform: scale(1.3);
+    
     z-index: 3;
     border: 1px solid white;
     box-shadow: 1px 1px 5px 2px var(--bootstrap),
@@ -94,7 +94,7 @@
 
 .react:hover{
     
-    transform: scale(1.3);
+    
     z-index: 3;
     border: 1px solid white;
     box-shadow: 1px 1px 5px 2px var(--react),
@@ -109,7 +109,7 @@
 
 .react-native:hover{
     
-    transform: scale(1.3);
+    
     z-index: 3;
     border: 1px solid white;
     box-shadow: 1px 1px 5px 2px var(--react-native),
@@ -124,7 +124,7 @@
 
 .vsc:hover{
     
-    transform: scale(1.3);
+    
     z-index: 3;
     border: 1px solid white;
     box-shadow: 1px 1px 5px 2px var(--vsc),
@@ -138,7 +138,7 @@
 }
 
 .git:hover{
-    transform: scale(1.3);
+    
     z-index: 3;
     border: 1px solid white;
     box-shadow: 1px 1px 5px 2px var(--git),
@@ -152,7 +152,7 @@
 }
 
 .github:hover{
-    transform: scale(1.3);
+    
     z-index: 3;
     border: 1px solid white;
     box-shadow: 1px 1px 5px 2px var(--github),
@@ -176,5 +176,11 @@
 
     100%{
         transform: rotateX(360deg);
+    }
+}
+
+@media screen and (width < 475px) {
+    .caja{
+        backdrop-filter: none
     }
 }
