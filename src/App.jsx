@@ -20,7 +20,7 @@ function App() {
     useEffect(() => {
         const getData = async () => {
             try {
-                const resp = await fetch("src/data.json");
+                const resp = await fetch("https://my-json-server.typicode.com/GabrielCarrillo93/fake-server-portfolio/db");
                 if (!resp.ok) throw new Error;
                 const data = await resp.json();
                 setCertificados(data.certificados)
