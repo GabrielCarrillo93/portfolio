@@ -16,12 +16,19 @@
     text-align: left;
     margin: 4px auto 0;
     border-radius: 12px;
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 @media screen and (width < 475px){
     .sobremi{
-        min-height: 18vh;
+        padding: 16px 8px;
+        min-height: 25vh;
         order: 1;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 }

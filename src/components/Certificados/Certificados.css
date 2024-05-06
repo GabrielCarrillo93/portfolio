@@ -57,6 +57,8 @@
 @media screen and (width < 475px) {
     .certificados{
         order: 4;
+        min-height: 40vh;
+        gap: 10px;
     }
 
     .certificados .lista{
