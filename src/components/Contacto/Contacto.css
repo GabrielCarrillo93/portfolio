@@ -42,7 +42,7 @@
 
 @media screen and (width < 475px) {
     .contacto {
-        min-height: 16vh;
+        min-height: 20vh;
         order: 5;
     }
 

@@ -23,7 +23,7 @@
 @media screen and (width < 475px){
     .sobremi{
         padding: 16px 8px;
-        min-height: 25vh;
+        min-height: 28vh;
         order: 1;
         font-size: 14px;
         line-height: 16px;
