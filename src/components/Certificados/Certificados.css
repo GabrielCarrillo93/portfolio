@@ -12,6 +12,10 @@
         box-shadow: 0 4px hsla(180, 31%, 65%, 0.7);
         transform: translateY(4px);
         background-color: hsla(180, 31%, 74%, 0.7);
+
+        .lista{
+            scrollbar-color: hsla(180, 42%, 78%, 0.75) hsla(180, 35%, 65%, 0.7);
+        }
         
         .lista::-webkit-scrollbar{
             background-color: hsla(180, 35%, 65%, 0.7);
@@ -39,6 +43,8 @@
     overflow-y: auto;
     gap: 8px ;
     padding: 4px;
+    scrollbar-width: thin;
+    scrollbar-color: hsla(353, 42%, 78%, 0.75) hsla(353, 35%, 65%, 0.7);
 }
 
 .lista::-webkit-scrollbar{
@@ -59,6 +65,7 @@
         order: 4;
         min-height: 40vh;
         gap: 10px;
+        
     }
 
     .certificados .lista{
@@ -66,5 +73,6 @@
         justify-content: space-around;
         flex-wrap: wrap;
         overflow-x: scroll;
+        
     }
 }
